@@ -1,0 +1,15 @@
+.app-intro-container {
+    background: #282c34;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .text-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
