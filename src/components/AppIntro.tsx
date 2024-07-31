@@ -1,29 +1,18 @@
 import React from 'react';
-import styled from 'styled-components';
-
-const Container = styled.div`
-  background: #282c34;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-`;
-
-const TextContainer = styled.div`
-  padding: 20px;
-  text-align: center;
-`;
+import appImage from '../assets/images/logo.png'; // 앱 이미지 추가
+import './AppIntro.css';
 
 const AppIntro: React.FC = () => {
   return (
-    <Container>
-      <TextContainer>
+    <div className="app-intro-container">
+      <div className="text-container">
         <h1>야구에 혁신을 더하다</h1>
         <p>AI를 더해 간편해진 야구 아카데미 / 레슨 예약 서비스 Catch B</p>
-      </TextContainer>
-    </Container>
+      </div>
+      <div className="image-container">
+        <img src={appImage} alt="App screenshot" className="app-image" />
+      </div>
+    </div>
   );
 };
 
