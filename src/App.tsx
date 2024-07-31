@@ -13,8 +13,8 @@ import './App.css'; // CSS 파일 추가
 const App: React.FC = () => {
   return (
     <div className="App">
-      <NavBar /> {/* NavBar 컴포넌트 추가 */}
-      <Header /> {/* Header 컴포넌트를 AppIntro 위에 추가 */}
+      <NavBar />
+      <Header />
       <Element name="appIntro" className="Section">
         <AppIntro />
       </Element>

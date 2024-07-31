@@ -6,7 +6,7 @@ import mlbimage2 from '../assets/images/mlbimage2.jpg';
 import mlbimage3 from '../assets/images/mlbimage3.jpg';
 
 const sliderSettings = {
-  dots: true,
+  dots: false, // dots 설정을 false로 변경
   infinite: true,
   speed: 500,
   slidesToShow: 1,
