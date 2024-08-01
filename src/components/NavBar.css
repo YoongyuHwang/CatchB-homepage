@@ -12,8 +12,8 @@
   z-index: 1000; /* NavBar를 최상단에 배치 */
 }
 
-.NavBar-logo {
-  height: 50px; /* 기존 50px에서 60px로 크기 증가 */
+.NavBar-catchb {
+  height: 40px; /* 기존 50px에서 60px로 크기 증가 */
 }
 
 .NavBar-items {

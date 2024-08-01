@@ -1,7 +1,7 @@
 .footer-container {
   background: #333;
   color: white;
-  padding: 20px 80px;
+  padding: 40px 80px;
   display: flex;
   justify-content: flex-start; /* 전체 컨테이너를 왼쪽으로 정렬 */
 }
