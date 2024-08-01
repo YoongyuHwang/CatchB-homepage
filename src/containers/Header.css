@@ -15,11 +15,11 @@
 
 .header-gradient {
   position: absolute;
-  bottom: 0;
+  bottom: -2px;
   left: 0;
   width: 100%;
   height: 30%; /* 흐림 효과의 높이 조절 */
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  background: linear-gradient(to top, #000C06, rgba(0, 12, 6, 0.5), rgba(0, 0, 0, 0));
   z-index: 1; /* 오버레이를 이미지 위에 표시 */
 }
 
@@ -37,7 +37,7 @@
   text-align: center; /* 텍스트 중앙 정렬 */
   padding: 20px;
   box-sizing: border-box;
-  z-index: 2; /* 오버레이를 상단에 표시 */
+  z-index: 0; /* 오버레이를 상단에 표시 */
 }
 
 .header-text-container {
@@ -55,20 +55,21 @@
 .header-text-container h1 {
   font-family: 'Do Hyeon', sans-serif;
   font-size: 80px;
-  margin-bottom: 10px; /* 원하는 간격 설정 */
+  margin-bottom: 0px; /* 원하는 간격 설정 */
 }
 
 .header-text-container p {
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 50px;
   font-weight: bold;
-  margin-bottom: 10px; /* 원하는 간격 설정 */
+  margin-bottom: 50px; /* 원하는 간격 설정 */
 }
 
 .catchb-Logo {
   width: 200px; /* 적절한 크기로 조정 */
   height: auto;
   margin-bottom: 10px; /* 원하는 간격 설정 */
+  
 }
 
 .download-button {
