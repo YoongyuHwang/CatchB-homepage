@@ -1,13 +1,13 @@
 import React from 'react';
 import { Element } from 'react-scroll';
-import Header from './components/Header'; // Header 컴포넌트 추가
-import AppIntro from './components/AppIntro';
-import Events from './components/Events';
-import Notices from './components/Notices';
-import PreOrder from './components/PreOrder';
-import HowToUse from './components/HowToUse';
-import Footer from './components/Footer';
-import NavBar from './components/NavBar'; // NavBar 컴포넌트 추가
+import Header from './containers/Header'; // Header 컴포넌트 추가
+import AppIntro from './containers/AppIntro';
+import Events from './containers/Events';
+import Notices from './containers/Notices';
+import PreOrder from './containers/PreOrder';
+import HowToUse from './containers/HowToUse';
+import Footer from './containers/Footer';
+import NavBar from './containers/NavBar'; // NavBar 컴포넌트 추가
 import './App.css'; // CSS 파일 추가
 
 const App: React.FC = () => {
